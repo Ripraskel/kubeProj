@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: event-bus
-          image: docker.io/ripraskel/event-bus
+          image: ripraskel/event-bus
 ---
 apiVersion: v1
 kind: Service

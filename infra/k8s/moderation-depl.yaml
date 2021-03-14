@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: moderation
-          image: docker.io/ripraskel/moderation
+          image: ripraskel/moderation
 ---
 apiVersion: v1
 kind: Service

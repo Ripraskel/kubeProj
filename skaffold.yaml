@@ -1,4 +1,4 @@
-apiVersion: skaffold/v2alpha3
+apiVersion: skaffold/v2beta12
 kind: Config
 deploy:
   kubectl:
@@ -41,7 +41,7 @@ build:
           - src: '*.js'
             dest: .
     - image: ripraskel/query
-      context: comments
+      context: query
       docker:
         dockerfile: Dockerfile
       sync:
